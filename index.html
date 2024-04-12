@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decentralized Clinic</title>
     <style>
+        /* Styles for the round logo */
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Other styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -55,8 +69,10 @@
 <body>
     <!-- Header Section -->
     <header>
-        <!-- Logo -->
-        <img src="logo.png" alt="Decentralized Clinic Logo" width="150">
+        <!-- Round Logo -->
+        <div class="logo">
+            <img src="logo.png" alt="Decentralized Clinic Logo">
+        </div>
         <!-- Navigation Menu -->
         <nav>
             <ul>
